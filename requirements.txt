@@ -1,0 +1,3 @@
+open3d==0.15.2
+pyglet==1.5.27
+pyrender==0.1.45
