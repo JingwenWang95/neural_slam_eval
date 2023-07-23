@@ -20,7 +20,7 @@ Also note that run-time of NICE-SLAM and iMAP* on fr2/xyz and fr3/office are app
 | iMAP      |      4.9      |    -     |    -    |
 | iMAP*     |      7.2      | 3hr17min |  0.22M  |
 | NICE-SLAM |      2.7      | 2hr30min | 44.66M  |
-| ESLAM     |      2.5      |  40min   |  0.04M  |
+| ESLAM     |      2.5      |  40min   |  6.8M   |
 | Co-SLAM   |      2.7      | 1min18s  |  1.59M  |
 | Co-SLAM†  |      2.4      | 1min56s  |  1.59M  |
 
@@ -32,7 +32,7 @@ Also note that run-time of NICE-SLAM and iMAP* on fr2/xyz and fr3/office are app
 | iMAP      |      2.0      |    -     |    -    |
 | iMAP*     |      2.1      |  ~18hr   |  0.22M  |
 | NICE-SLAM |      1.8      |  ~24hr   | 120.99M |
-| ESLAM     |      N/A      |    -     |    -    |
+| ESLAM     |      N/A      |   N/A    | 12.98M  |
 | Co-SLAM   |      1.9      | 6min58s  |  1.59M  |
 | Co-SLAM†  |      1.7      | 10min44s |  1.59M  |
 
@@ -44,6 +44,6 @@ Also note that run-time of NICE-SLAM and iMAP* on fr2/xyz and fr3/office are app
 | iMAP      |      5.8      |    -     |    -    |
 | iMAP*     |      9.0      |  ~15hr   |  0.22M  |
 | NICE-SLAM |      3.0      |  ~16hr   | 139.19M |
-| ESLAM     |      N/A      |    -     |    -    |
+| ESLAM     |      N/A      |   N/A    | 13.98M  |
 | Co-SLAM   |      2.6      | 5min33s  |  1.59M  |
 | Co-SLAM†  |      2.4      | 8min23s  |  1.59M  |
