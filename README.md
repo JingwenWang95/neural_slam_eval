@@ -155,12 +155,13 @@ We also report total time needed to process each sequence in individual dataset 
 
 ### Replica
 
-|  Methods   | Acc↓<br/>[cm] | Comp↓<br/>[cm] | Comp<br/>Ratio↑<br/>[%] | Depth <br/>L1↓<br/>[cm] | Track.↓<br/>[ms x it] | Map.↓<br/>[ms x it] | Track.<br/>FPS↑ | Map.<br/>FPS↑ | #param↓ | 
-|:----------:|:-------------:|:--------------:|:-----------------------:|:-----------------------:|:---------------------:|:-------------------:|-----------------|---------------|:-------:|
-|    iMAP    |     3.62      |      4.93      |          80.51          |          4.64           |        16.8x6         |       44.8x10       | 9.92            | 2.23          |  0.26M  |
-| NICE-SLAM  |     2.37      |      2.64      |          91.13          |          1.90           |        7.8x10         |       82.5x60       | 13.70           | 0.20          |  17.4M  |
-| Vox-Fusion |     1.88      |      2.56      |          90.93          |          2.91           |        15.8x30        |       46.0x10       | 2.11            | 2.17          |  0.87M  |
-|  Co-SLAM   |     2.10      |      2.08      |          93.44          |          1.51           |        5.8x10         |       9.8x10        | 17.24           | 10.20         |  0.26M  |
+|     Methods      | Acc↓<br/>[cm] | Comp↓<br/>[cm] | Comp<br/>Ratio↑<br/>[%] | Depth <br/>L1↓<br/>[cm] | Track.↓<br/>[ms x it] | Map.↓<br/>[ms x it] | Track.<br/>FPS↑ | Map.<br/>FPS↑ | #param↓ | 
+|:----------------:|:-------------:|:--------------:|:-----------------------:|:-----------------------:|:---------------------:|:-------------------:|:---------------:|:-------------:|:-------:|
+|       iMAP       |     3.62      |      4.93      |          80.51          |          4.64           |        16.8x6         |       44.8x10       |      9.92       |     2.23      |  0.26M  |
+|    NICE-SLAM     |     2.37      |      2.64      |          91.13          |          1.90           |        7.8x10         |       82.5x60       |      13.70      |     0.20      |  17.4M  |
+|    Vox-Fusion    |     1.88      |      2.56      |          90.93          |          2.91           |        15.8x30        |       46.0x10       |      2.11       |     2.17      |  0.87M  |
+|      ESLAM       |     2.18      |      1.75      |          96.46          |          0.94           |         6.9x8         |       18.4x15       |      18.11      |     3.62      |  0.08M  |
+|     Co-SLAM      |     2.10      |      2.08      |          93.44          |          1.51           |        5.8x10         |       9.8x10        |      17.24      |     10.20     |  0.26M  |
 
 Here tracking/mapping FPS indicates how fast a complete tracking/mapping optimization cycle can run, thus do not correspond to the actual runtime FPS of the system. 
 For the overall system runtime we report the total time needed to process an entire sequence in [benchmark/replica](benchmark/replica). 
@@ -191,6 +192,7 @@ Please refer to [benchmark/rgbd](benchmark/rgbd) for more details of each scene.
 |   iMAP*    |     36.67     |              -              |        30.4x50        |      44.9x300       |      0.66       |     0.07      |  0.2M   |
 | NICE-SLAM  |     9.63      |            23.97            |        12.3x50        |      125.3x60       |      1.63       |     0.13      |  10.3M  |
 | Vox-Fusion |     8.22      |              -              |        29.4x30        |       85.8x15       |      1.13       |     0.78      |  1.1M   |
+|   ESLAM    |     7.42      |              -              |        7.4x30         |       22.4x30       |      4.54       |     1.49      |  0.1M   |
 |  Co-SLAM   |     9.37      |            18.01            |        7.8x10         |       20.2x10       |      12.82      |     4.95      |  0.8M   |
 |  Co-SLAM†  |     8.75      |              -              |        7.8x20         |       20.2x10       |      6.41       |     4.95      |  0.8M   |
 

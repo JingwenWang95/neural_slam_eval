@@ -5,7 +5,7 @@
 |    iMAP    |     3.62      |      4.93      |          80.51          |          4.64           |        16.8x6         |       44.8x10       | 9.92            | 2.23          |  0.26M  |
 | NICE-SLAM  |     2.37      |      2.64      |          91.13          |          1.90           |        7.8x10         |       82.5x60       | 13.70           | 0.20          |  17.4M  |
 | Vox-Fusion |     1.88      |      2.56      |          90.93          |          2.91           |        15.8x30        |       46.0x10       | 2.11            | 2.17          |  0.87M  |
-|   ESLAM    |               |                |                         |                         |                       |                     |                 |               |         |
+|   ESLAM    |     2.18      |      1.75      |          96.46          |          0.94           |         6.9x8         |       18.4x15       | 18.11           | 3.62          |  0.08   |
 |  Co-SLAM   |     2.10      |      2.08      |          93.44          |          1.51           |        5.8x10         |       9.8x10        | 17.24           | 10.20         |  0.26M  |
 
 The runtime is measured as the total processing time from the program starts until the final checkpoint is saved.
@@ -18,7 +18,7 @@ Mesh saving was disabled for NICE-SLAM and iMAP* as we observed that they can ta
 |    iMAP    |     4.01      |      5.84      |          78.34          |          5.08           |    -     |  0.26M  |
 | NICE-SLAM  |     2.44      |      2.60      |          91.81          |          1.79           | 29min50s |  12.2M  |
 | Vox-Fusion |     1.77      |      2.69      |          92.03          |          1.76           | 19min46s |  0.90M  |
-|   ESLAM    |               |                |                         |                         | 4min34s  |  0.08M  |
+|   ESLAM    |     2.45      |      1.79      |          97.29          |                         | 4min34s  |  0.08M  |
 |  Co-SLAM   |     2.11      |      2.02      |          95.26          |          1.05           | 3min26s  |  0.26M  |
 
 ### room1
@@ -28,7 +28,7 @@ Mesh saving was disabled for NICE-SLAM and iMAP* as we observed that they can ta
 |    iMAP    |     3.04      |      4.40      |          85.85          |          3.44           |    -     |  0.26M  |
 | NICE-SLAM  |     2.10      |      2.19      |          93.56          |          1.33           | 25min4s  |  8.79M  |
 | Vox-Fusion |     1.51      |      2.31      |          92.47          |          2.52           |  20min   |  0.85M  |
-|   ESLAM    |               |                |                         |                         | 4min30s  |  0.08M  |
+|   ESLAM    |     2.44      |      1.58      |          96.80          |                         | 4min30s  |  0.08M  |
 |  Co-SLAM   |     1.68      |      1.81      |          95.19          |          0.85           | 3min20s  |  0.26M  |
 
 
